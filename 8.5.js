@@ -51,6 +51,9 @@ function get(key) {
   }
   //return undefined;
 }
+
+print(hTable.table[102]);     // Jennifer
+print(hTable.table[102][0]);  // J           <-- WTF!
 print(hTable.betterHash(3));
 print(hTable.get("David"));
 print(hTable.get(3));
